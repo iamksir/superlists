@@ -8,6 +8,7 @@ class NewVisitorTest(LiveServerTestCase):
 
     def setUp(self):
         self.browser = webdriver.Chrome()
+        self.browser.implicitly_wait(3)
 
     def tearDown(self):
         self.browser.quit()
