@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c83316e6-9fab-487e-b3ee-c55d343b8bbb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lists/static/base.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/functional_tests/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/functional_tests/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lists/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/lists/templates/home.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lists/templates/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/lists/templates/list.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,8 +15,8 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/superlists$functional_tests.coverage" NAME="functional_tests Coverage Results" MODIFIED="1641486182530" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/superlists$Unittests_for_functional_tests_NewVisitorTest_test_can_start_a_list_and_retrieve_it_later.coverage" NAME="Unittests for functional_tests.NewVisitorTest.test_can_start_a_list_and_retrieve_it_later Coverage Results" MODIFIED="1641613640996" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/superlists$Test__lists_tests.coverage" NAME="Test: lists.tests Coverage Results" MODIFIED="1641736118052" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/superlists$Test__functional_tests_tests.coverage" NAME="Test: functional_tests.tests Coverage Results" MODIFIED="1641737760067" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/superlists$Test__lists_tests.coverage" NAME="Test: lists.tests Coverage Results" MODIFIED="1641737845632" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/superlists$Test__functional_tests_tests.coverage" NAME="Test: functional_tests.tests Coverage Results" MODIFIED="1641738600333" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/superlists$Test__lists_tests_HOmePageTest_test_root_url_resolves_to_home_page_view.coverage" NAME="Test: lists.tests.HOmePageTest.test_root_url_resolves_to_home_page_view Coverage Results" MODIFIED="1641477040940" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/superlists$Test__lists_tests_TtemModelTest_test_saving_and_retrieving_items.coverage" NAME="Test: lists.tests.TtemModelTest.test_saving_and_retrieving_items Coverage Results" MODIFIED="1641627854276" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/superlists$Test__lists_tests_HOmePageTest_test_home_page_can_save_a_POST_request.coverage" NAME="Test: lists.tests.HOmePageTest.test_home_page_can_save_a_POST_request Coverage Results" MODIFIED="1641569369035" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
@@ -56,29 +55,33 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="4" />
-          <entry key="py" value="26" />
+          <entry key="css" value="1" />
+          <entry key="html" value="5" />
+          <entry key="py" value="28" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="4" />
-          <entry key="Python" value="26" />
+          <entry key="CSS" value="1" />
+          <entry key="HTML" value="5" />
+          <entry key="Python" value="28" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Django Console" value="90" />
-          <entry key="html" value="615" />
-          <entry key="py" value="6911" />
-          <entry key="txt" value="365" />
+          <entry key="css" value="21" />
+          <entry key="html" value="694" />
+          <entry key="py" value="6935" />
+          <entry key="txt" value="406" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="615" />
-          <entry key="PLAIN_TEXT" value="365" />
-          <entry key="Python" value="7001" />
+          <entry key="CSS" value="21" />
+          <entry key="HTML" value="694" />
+          <entry key="PLAIN_TEXT" value="406" />
+          <entry key="Python" value="7025" />
         </counts>
       </usages-collector>
     </session>
@@ -91,7 +94,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lists/tests.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
+            <state relative-caret-position="198">
               <caret line="128" lean-forward="true" selection-start-line="128" selection-end-line="128" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
@@ -103,8 +106,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lists/templates/list.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="9" column="55" selection-start-line="9" selection-start-column="55" selection-end-line="9" selection-end-column="55" />
+            <state relative-caret-position="161">
+              <caret line="7" column="42" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -161,8 +164,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lists/templates/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="9" column="23" lean-forward="true" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+            <state relative-caret-position="161">
+              <caret line="7" column="66" selection-start-line="7" selection-start-column="66" selection-end-line="7" selection-end-column="66" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lists/static/base.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="23">
+              <caret line="1" column="20" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -213,9 +225,10 @@
         <option value="$PROJECT_DIR$/superlists/urls.py" />
         <option value="$PROJECT_DIR$/lists/urls.py" />
         <option value="$PROJECT_DIR$/lists/templates/home.html" />
-        <option value="$PROJECT_DIR$/lists/templates/list.html" />
         <option value="$PROJECT_DIR$/functional_tests/tests.py" />
+        <option value="$PROJECT_DIR$/lists/templates/list.html" />
         <option value="$PROJECT_DIR$/lists/templates/base.html" />
+        <option value="$PROJECT_DIR$/lists/static/base.css" />
       </list>
     </option>
   </component>
@@ -264,6 +277,12 @@
               <item name="superlists" type="b2602c69:ProjectViewProjectNode" />
               <item name="superlists" type="462c0819:PsiDirectoryNode" />
               <item name="lists" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="superlists" type="b2602c69:ProjectViewProjectNode" />
+              <item name="superlists" type="462c0819:PsiDirectoryNode" />
+              <item name="lists" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -282,6 +301,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="terminal" />
@@ -434,8 +454,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Django tests.Test: functional_tests.tests" />
-        <item itemvalue="Django tests.Test: functional_tests.tests.NewVisitorTest.test_layout_and_stying" />
         <item itemvalue="Django tests.Test: lists.tests" />
+        <item itemvalue="Django tests.Test: functional_tests.tests.NewVisitorTest.test_layout_and_stying" />
         <item itemvalue="Django tests.Test: lists.tests.ListViewTest.test_displays_only_items_for_that_list" />
         <item itemvalue="Django tests.Test: lists.tests.ListViewTest.test_uses_list_template" />
       </list>
@@ -557,25 +577,17 @@
       <option name="project" value="LOCAL" />
       <updated>1641736714823</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="使用模板继承">
+      <created>1641737827401</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1641737827401</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Test__lists_tests - 2022.01.09 at 21h 48m 39s.xml">
-      <configuration name="Test: lists.tests" configurationId="DjangoTestsConfigurationType" />
-    </history-entry>
-    <history-entry file="Test__functional_tests_tests_NewVisitorTest_test_layout_and_stying - 2022.01.09 at 21h 51m 49s.xml">
-      <configuration name="Test: functional_tests.tests.NewVisitorTest.test_layout_and_stying" configurationId="DjangoTestsConfigurationType" />
-    </history-entry>
-    <history-entry file="Test__functional_tests_tests - 2022.01.09 at 21h 52m 33s.xml">
-      <configuration name="Test: functional_tests.tests" configurationId="DjangoTestsConfigurationType" />
-    </history-entry>
-    <history-entry file="Test__functional_tests_tests - 2022.01.09 at 21h 54m 45s.xml">
-      <configuration name="Test: functional_tests.tests" configurationId="DjangoTestsConfigurationType" />
-    </history-entry>
-    <history-entry file="Test__functional_tests_tests - 2022.01.09 at 21h 55m 14s.xml">
-      <configuration name="Test: functional_tests.tests" configurationId="DjangoTestsConfigurationType" />
-    </history-entry>
     <history-entry file="Test__functional_tests_tests - 2022.01.09 at 21h 57m 25s.xml">
       <configuration name="Test: functional_tests.tests" configurationId="DjangoTestsConfigurationType" />
     </history-entry>
@@ -589,6 +601,21 @@
       <configuration name="Test: functional_tests.tests" configurationId="DjangoTestsConfigurationType" />
     </history-entry>
     <history-entry file="Test__functional_tests_tests - 2022.01.09 at 22h 09m 33s.xml">
+      <configuration name="Test: functional_tests.tests" configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+    <history-entry file="Test__functional_tests_tests - 2022.01.09 at 22h 15m 45s.xml">
+      <configuration name="Test: functional_tests.tests" configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+    <history-entry file="Test__functional_tests_tests - 2022.01.09 at 22h 16m 13s.xml">
+      <configuration name="Test: functional_tests.tests" configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+    <history-entry file="Test__lists_tests - 2022.01.09 at 22h 17m 26s.xml">
+      <configuration name="Test: lists.tests" configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+    <history-entry file="Test__functional_tests_tests - 2022.01.09 at 22h 20m 23s.xml">
+      <configuration name="Test: functional_tests.tests" configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+    <history-entry file="Test__functional_tests_tests - 2022.01.09 at 22h 22m 54s.xml">
       <configuration name="Test: functional_tests.tests" configurationId="DjangoTestsConfigurationType" />
     </history-entry>
   </component>
@@ -660,7 +687,8 @@
     <MESSAGE value="调整模型，让待办事项和不同的清单关联起来" />
     <MESSAGE value="new URL + view for adding to existing lists. FT passes" />
     <MESSAGE value="first steps of FT for layout +styling" />
-    <option name="LAST_COMMIT_MESSAGE" value="first steps of FT for layout +styling" />
+    <MESSAGE value="使用模板继承" />
+    <option name="LAST_COMMIT_MESSAGE" value="使用模板继承" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://D:/Program Files (x86)/python/Lib/site-packages/django/core/wsgi.py">
@@ -710,11 +738,6 @@
     <entry file="file://$PROJECT_DIR$/functional_tests/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/lists/migrations/0004_item_list.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-102" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lists/migrations/0003_list.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -735,12 +758,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lists/tests.py">
+    <entry file="file://$PROJECT_DIR$/lists/templates/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="128" lean-forward="true" selection-start-line="128" selection-end-line="128" />
+        <state relative-caret-position="92">
+          <caret line="4" column="44" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Program Files (x86)/python/Lib/ntpath.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="75" selection-start-line="75" selection-end-line="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lists/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
           <folding>
-            <element signature="e#0#32#0" expanded="true" />
+            <element signature="e#634#666#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -756,17 +793,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lists/templates/home.html">
+    <entry file="file://$PROJECT_DIR$/lists/tests.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="44" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Program Files (x86)/python/Lib/ntpath.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="75" selection-start-line="75" selection-end-line="75" />
+        <state relative-caret-position="198">
+          <caret line="128" lean-forward="true" selection-start-line="128" selection-end-line="128" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -780,27 +813,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lists/migrations/0004_item_list.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/lists/templates/list.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="55" selection-start-line="9" selection-start-column="55" selection-end-line="9" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lists/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
-          <folding>
-            <element signature="e#634#666#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="161">
+          <caret line="7" column="42" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lists/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="9" column="23" lean-forward="true" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+        <state relative-caret-position="161">
+          <caret line="7" column="66" selection-start-line="7" selection-start-column="66" selection-end-line="7" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lists/static/base.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="20" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
         </state>
       </provider>
     </entry>
