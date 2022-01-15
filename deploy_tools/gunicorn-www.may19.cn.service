@@ -1,0 +1,12 @@
+[Unit]
+Description=Gunicorn server for www.may19.cn
+After=syslog.target network.target remote-fs.target nss-lookup.target
+
+[Service]
+User=elspeth
+WorkingDirectory=/home/elspeth/sites/www.may19.cn/source
+ExecStart=/home/elspeth/sites/www.may19.cn/virtualenv/bin/gunicorn superlists.wsgi:application
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
