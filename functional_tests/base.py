@@ -8,7 +8,7 @@ class FunctionalTest(StaticLiveServerTestCase):
     @classmethod
     def setUpClass(cls):
         cls.server_url = 'http://' + HOST
-        print(cls.server_url)
+        # print(cls.server_url)
 
     @classmethod
     def tearDownClass(cls):
