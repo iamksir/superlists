@@ -29,7 +29,7 @@ DEBUG = False
 
 TEMPLATE_DEBUG = DEBUG
 
-ALLOWED_HOSTS = ['121.199.14.214','www.may19.cn','127.0.0.1']
+ALLOWED_HOSTS = ['1.14.71.62','www.may19.cn','127.0.0.1']
 
 
 # Application definition
